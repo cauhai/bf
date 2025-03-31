@@ -1,0 +1,27 @@
+{
+  "name": "bf",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Small fullstack app, one repo",
+  "keywords": [
+    "fullstack",
+    "koa",
+    "react"
+  ],
+  "author": "Hai Tran",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cauhai/bf.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "test": "echo \"No testing\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1"
+  }
+}

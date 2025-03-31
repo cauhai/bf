@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend of the fullstack app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No test\""
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "koa": "^2.16.0",
+    "koa-logger": "^3.2.1",
+    "koa-route": "^4.0.1"
+  }
+}
